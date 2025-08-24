@@ -15,6 +15,12 @@ def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
 
+app.get("/superMavel")
+def get_superheroes():
+    rows = ["Spiderman", "Iron man", "Hulk", "Wolwerine", "Ghost Rider", "Namor", "Black Panter", "Daredevil"]
+    return rows
+
+
 
 @app.get("/CursosPlatzi")
 def get_cursos():
